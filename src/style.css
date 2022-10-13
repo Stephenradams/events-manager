@@ -67,6 +67,19 @@ button:focus-visible {
   text-align: center;
 }
 
+.header {
+  background: #3fb580;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
