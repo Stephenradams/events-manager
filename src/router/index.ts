@@ -1,9 +1,10 @@
 import {createRouter, createWebHistory} from 'vue-router'
+import ListView from '@/views/ListView.vue'
 
 const routes = [{
   path: '/',
   name: 'Home',
-  component: ''
+  component: ListView
 }];
 
 const router = createRouter({
